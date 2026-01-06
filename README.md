@@ -41,10 +41,10 @@ No demographic or personally identifiable information is included.
 🗂️ Files in the Dataset
 **File Name	Description**
 
-ratings.csv	User ratings for movies
-tags.csv	User-generated movie tags
-movies.csv	Movie titles and genres
-links.csv	IMDb and TMDb identifiers
+- ratings.csv	User ratings for movies
+- tags.csv	User-generated movie tags
+- movies.csv	Movie titles and genres
+- links.csv	IMDb and TMDb identifiers
 
 **All files are UTF-8 encoded CSV files with header rows.
 
@@ -52,40 +52,38 @@ links.csv	IMDb and TMDb identifiers
 
 Depending on implementation, this project can be completed using:
 
-Python (Pandas, NumPy, Matplotlib, Seaborn)
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
 
-SQL (for querying and aggregations)
+- SQL (for querying and aggregations)
 
-Power BI (for visualization and dashboards)
-
-GitHub (version control & documentation)
+- GitHub (version control & documentation)
 
 **🔍 Methodology**
 
-Data Understanding
+- Data Understanding
 
-Reviewed dataset structure and relationships
+- Reviewed dataset structure and relationships
 
-Identified key variables (users, movies, ratings, tags)
+- Identified key variables (users, movies, ratings, tags)
 
-Data Cleaning
+**Data Cleaning**
 
-Handled missing values
+- Handled missing values
 
-Converted timestamps to readable datetime format
+- Converted timestamps to readable datetime format
 
-Ensured consistent joins across files
+- Ensured consistent joins across files
 
 
 **Exploratory Data Analysis (EDA)**
 
-Analyzed rating distributions
+1. Analyzed rating distributions
 
-Explored genre popularity
+2. Explored genre popularity
 
-Studied user rating behavior
+3. Studied user rating behavior
 
-Examined tagging patterns
+4. Examined tagging patterns
 
 **Insight Generation**
 
@@ -96,22 +94,22 @@ Interpreted trends with business and analytical relevance
 📊 Key Insights & Findings
 1️⃣ Rating Distribution
 
-Most ratings fall between 3.0 and 4.5 stars, showing a generally positive bias.
+- Most ratings fall between 3.0 and 4.5 stars, showing a generally positive bias.
 
-Very low ratings are rare, indicating selective rating behavior.
+- Very low ratings are rare, indicating selective rating behavior.
 
-Half-star ratings are commonly used, providing fine-grained feedback.
+- Half-star ratings are commonly used, providing fine-grained feedback.
 
 **Insight:**
 Users tend to rate movies they already expect to like, leading to positively skewed ratings.
 
 2️⃣ Genre Popularity
 
-Drama, Comedy, and Action receive the highest number of ratings.
+- Drama, Comedy, and Action receive the highest number of ratings.
 
-Niche genres such as Film-Noir and Western have lower engagement.
+- Niche genres such as Film-Noir and Western have lower engagement.
 
-Multi-genre movies tend to attract more ratings.
+- Multi-genre movies tend to attract more ratings.
 
 Insight:
 Movies with broader genre appeal gain higher visibility and engagement.
@@ -177,25 +175,25 @@ The dataset is well-suited for multi-source data enrichment and advanced analyti
 
 This project demonstrates how data can be used to:
 
-Build personalized recommendation systems
+1. Build personalized recommendation systems
 
-Understand user preferences and behavior
+2. Understand user preferences and behavior
 
-Identify content trends
+3. Identify content trends
 
 Support data-driven decision-making in media platforms
 
 **🚀 Possible Extensions**
 
-Build a movie recommendation engine
+1. Build a movie recommendation engine
 
-Predict ratings using machine learning
+2. Predict ratings using machine learning
 
-Perform sentiment analysis on tags
+3. Perform sentiment analysis on tags
 
-Analyze genre trends over time
+4. Analyze genre trends over time
 
-Integrate IMDb or TMDb metadata
+5. Integrate IMDb or TMDb metadata
 
 **📖 Citation**
 
