@@ -5,23 +5,23 @@ This project explores the MovieLens Latest Small (ml-latest-small) dataset, a wi
 
 The project focuses on:
 
-Understanding how users rate movies over time
+- Understanding how users rate movies over time
 
-Identifying popular and highly rated genres
+- Identifying popular and highly rated genres
 
-Comparing movie popularity vs rating quality
+- Comparing movie popularity vs rating quality
 
-Exploring the role of tags in user perception
+- Exploring the role of tags in user perception
 
-Highlighting how this data can support recommendation systems
+**Highlighting how this data can support recommendation systems**
 
 This analysis is suitable for data analytics, business intelligence, and recommender system applications.
 
-📂 Dataset Description
+**📂 Dataset Description**
 
 The dataset was collected by MovieLens, a movie recommendation service operated by the GroupLens Research Group at the University of Minnesota.
 
-Dataset statistics:
+**Dataset statistics:**
 
 ⭐ 100,836 ratings
 
@@ -36,18 +36,19 @@ Dataset statistics:
 Users were randomly selected and each user rated at least 20 movies.
 No demographic or personally identifiable information is included.
 
-⚠️ This is a development dataset and may change over time. It is not intended for benchmark research results.
+**⚠️ This is a development dataset and may change over time. It is not intended for benchmark research results.**
 
 🗂️ Files in the Dataset
-File Name	Description
+**File Name	Description**
+
 ratings.csv	User ratings for movies
 tags.csv	User-generated movie tags
 movies.csv	Movie titles and genres
 links.csv	IMDb and TMDb identifiers
 
-All files are UTF-8 encoded CSV files with header rows.
+**All files are UTF-8 encoded CSV files with header rows.
 
-🛠️ Tools & Technologies
+**🛠️ Tools & Technologies**
 
 Depending on implementation, this project can be completed using:
 
@@ -59,7 +60,7 @@ Power BI (for visualization and dashboards)
 
 GitHub (version control & documentation)
 
-🔍 Methodology
+**🔍 Methodology**
 
 Data Understanding
 
@@ -75,7 +76,8 @@ Converted timestamps to readable datetime format
 
 Ensured consistent joins across files
 
-Exploratory Data Analysis (EDA)
+
+**Exploratory Data Analysis (EDA)**
 
 Analyzed rating distributions
 
@@ -85,7 +87,7 @@ Studied user rating behavior
 
 Examined tagging patterns
 
-Insight Generation
+**Insight Generation**
 
 Combined quantitative (ratings) and qualitative (tags) data
 
@@ -100,7 +102,7 @@ Very low ratings are rare, indicating selective rating behavior.
 
 Half-star ratings are commonly used, providing fine-grained feedback.
 
-Insight:
+**Insight:**
 Users tend to rate movies they already expect to like, leading to positively skewed ratings.
 
 2️⃣ Genre Popularity
@@ -171,7 +173,7 @@ Popularity metrics
 Insight:
 The dataset is well-suited for multi-source data enrichment and advanced analytics.
 
-💼 Business & Analytical Value
+**💼 Business & Analytical Value**
 
 This project demonstrates how data can be used to:
 
@@ -183,7 +185,7 @@ Identify content trends
 
 Support data-driven decision-making in media platforms
 
-🚀 Possible Extensions
+**🚀 Possible Extensions**
 
 Build a movie recommendation engine
 
@@ -195,7 +197,7 @@ Analyze genre trends over time
 
 Integrate IMDb or TMDb metadata
 
-📖 Citation
+**📖 Citation**
 
 If you use this dataset, please cite:
 
@@ -204,6 +206,7 @@ The MovieLens Datasets: History and Context.
 ACM Transactions on Interactive Intelligent Systems (TiiS), 5(4), 19.
 https://doi.org/10.1145/2827872
 
-🏁 Conclusion
+
+**🏁 Conclusion**
 
 This project showcases practical data analytics skills, from data understanding and cleaning to insight generation and business interpretation. It highlights how structured datasets can be transformed into actionable insights for real-world applications such as recommendation systems.
